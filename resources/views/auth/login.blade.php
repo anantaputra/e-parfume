@@ -4,6 +4,18 @@
 <div class="container py-5">
     <div class="row justify-content-center">
         <div class="col-md-5">
+            <div class="border p-2">
+                <div class="font-weight-bold">admin</div>
+                <div class="d-flex">
+                    <div class="font-weight-bold">email:</div>
+                    <div class="ml-2">admin@gmail.com</div>
+                </div>
+                <div class="d-flex">
+                    <div class="font-weight-bold">password:</div>
+                    <div class="ml-2">123123123</div>
+                </div>
+            </div>
+
             <h3 class="d-flex justify-content-center font-weight-bold mb-4">Welcome Back</h3>
 
             <form method="POST" action="{{ route('login') }}">
